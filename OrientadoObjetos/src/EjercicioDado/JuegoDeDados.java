@@ -58,7 +58,7 @@ public class JuegoDeDados
   
   
   
-  //Metodo sumar
+  //Metodo sumar, añadimos el plus si los dados son trio o pareja.
   public int Sumar() {
   	int suma = 0;
   	
@@ -74,7 +74,7 @@ public class JuegoDeDados
   	return suma;
   }
   
-  
+  //Metodo comprobarParejaTrio, miramos cuando va a ser trio,pareja o nada.
   public int comprobarParejaTrio() {
   	
   	int trio = 3;
