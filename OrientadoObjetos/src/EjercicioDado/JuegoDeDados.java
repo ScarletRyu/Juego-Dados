@@ -41,8 +41,12 @@ public class JuegoDeDados
       
      if(j1 > j2) {
   	   System.out.println("El jugador 1 ha ganado");
-     }else {
-  	   System.out.println("El jugador 2 ha ganado");
+  	   
+     }else if (j1 == j2){
+  	   System.out.println("Los dos jugadores han empatado");
+     }
+     else {
+    	 System.out.println("El jugador 2 ha ganado");
      }
       
   }
